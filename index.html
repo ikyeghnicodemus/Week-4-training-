@@ -24,10 +24,20 @@
      <leble for="email">E-mail</leble>
     <input type="email" placeholder="ikyeghnicodemus@gmail.com">
     <br>
-    <lable for="">
-        Quantity
-        </lable>
-    <input type="number" min="0" max="10">
+    <label for="qty">Quantity</label>
+<select id="qty" name="quantity">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
     <br>
        <leble for="date">Date</leble>
     <input type="date" placeholder="input date type">
@@ -47,10 +57,16 @@
     </select>
     <br>
     
-     <label>What is your favorite color</label>
-     <input type="radio"bleu>
-     <input type="radio"green>
-     <input type="radio"yellow>
+    <label>What is your favorite color</label><br>
+
+<input type="radio" id="blue" name="fav_color" value="blue">
+<label for="blue">Blue</label><br>
+
+<input type="radio" id="green" name="fav_color" value="green">
+<label for="green">Green</label><br>
+
+<input type="radio" id="yellow" name="fav_color" value="yellow">
+<label for="yellow">Yellow</label>
      <br>
      <label>Title</label>
      <label>Mr.</label>
